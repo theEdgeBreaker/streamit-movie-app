@@ -4,5 +4,11 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  return <div>Hello</div>;
+  return;
+  <div>
+    {/* Hero Movie Carousel */}
+    {/* Top 10 Movies */}
+    {/* Popular Movies */}
+    {/* Upcoming Movies */}
+  </div>;
 }
