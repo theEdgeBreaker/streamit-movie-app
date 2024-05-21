@@ -11,7 +11,7 @@ import { FaCircleUser } from "react-icons/fa6";
 const MobileSidebar = () => {
   return (
     <div
-      className=" bg-secondary min-h-screen border-r-[1px] border-[#1e1e1f] md:hidden px-4 py-8 text-white
+      className=" bg-secondary h-full border-r-[1px] border-[#1e1e1f]  px-4 py-8 text-white
       flex flex-col gap-8 items-center "
     >
       <div className="flex flex-col gap-6 items-center">
@@ -36,6 +36,7 @@ const MobileSidebar = () => {
         {/* Home */}
         <div className="p-3 border-2 border-transparent rounded-md transition-all duration-300 hover:border-[#1e1e1f] hover:text-5xl">
           <AiOutlineHome />
+          <span className="text-lg hidden hover:block">Hello</span>
         </div>
 
         {/* Movies */}

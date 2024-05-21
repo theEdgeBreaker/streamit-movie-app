@@ -28,7 +28,7 @@ const RankedCarousel = () => {
   }, [apikey]);
 
   return (
-    <div className="flex">
+    <div className=" min-h-screen">
       {/* <Header />
       <div>RankedCarousel</div> */}
       RankedCarousel
